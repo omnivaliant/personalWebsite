@@ -3,11 +3,39 @@
 <!DOCTYPE html>
 <style>
     h1 {
-        
         font-family: 'Comic Sans MS';
     }
+
     body {
         background-color: lightblue;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: dimgray;
+    }
+
+    li 
+    {
+        float: left;
+    }
+
+    li a 
+    {
+        display: block;
+        color: lightgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover 
+    {
+        background-color: #555;
+        color: white;
     }
 </style>
 <html>
@@ -16,10 +44,11 @@
 	<meta charset="utf-8" />
 </head>
 <body>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+    </ul>
     <h1>Blog</h1>
-    <p><a href="index.html">Main page.</a></p>
     <p>I decided to dedicate this page to just pure ranting about anything.</p>
-    <!--Image found off of google; not my image.-->
-    <img src="http://joinwee.com/media/uploads/weelesson/green_pc_power_01.jpg.300x200_q85_crop.jpg" alt="Omni Logo" style="width:auto;height:auto;">
 </body>
 </html>
