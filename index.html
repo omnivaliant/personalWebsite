@@ -4,11 +4,13 @@
 <style>
     h1 
     {
-        font-family: 'Comic Sans MS'
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     body
     {
-        background-color:#bcfffd;
+        background-color:lightblue;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
     }
     ul
     {
@@ -22,23 +24,39 @@
         padding: 0;
         overflow: hidden;
         background-color: dimgray;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     li
     {
         float:left;
+        border-right: 1px groove white;
+    }
+    li:last-child
+    {
+        border-right: none;
     }
     li a
     {
         display: inline-block ;
         color: lightgray;
         text-align: center;
-        padding: 14px 16px;
+        padding: 20px 20px;
         text-decoration: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
     }
     li a:hover
     {
         background-color:#555;
+        color: white;
+    }
+    li a.active
+    {
+        background-color:green;
+        color: white; 
+    }
+    li a:hover:not(.active)
+    {
+        background-color:lightgray;
         color: white;
     }
 </style>
@@ -50,10 +68,12 @@
   </head>
   <body>
       <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="active"href="index.html">Home</a></li>
           <li><a href="blog.html">Blog</a></li>
       </ul>
-      <h1>About Omnivaliant</h1>
+      <br />
+      <br />
+      <h1>Welcome!</h1>
       <p>Greetings, fellow user of the internet. Welcome to my website, where I will be coding an entire website from scratch!</p>
       <p>I will try and implement more features as I continue to learn more things, but for now, this will just be an HTML blurb.</p>
       <p>To make you less disappointed, I will leave you with my favourite inspirational YouTube video.</p>
