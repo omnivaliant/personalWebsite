@@ -2,26 +2,14 @@
 <!--Purpose: To create a website for personal satisfaction and learning.-->
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="omnivaliant.css" />
-    <script type="text/javascript" src="omnivaliant.js"></script>
+<head>
     <title>Omnivaliant's Page</title>
-    <meta charset='utf-8'>
-  </head>
-  <body>
-      <div id="bubbles"></div>
-      <!-- <ul>
-          <li><a class="active"href="index.html">Home</a></li>
-          <li><a href="blog.html">Blog</a></li>
-      </ul> -->
-
-      <h1>Welcome!</h1>
-
-        <!-- I grabbed this from http://pintsize.io/ -->
-        <!-- check out http://beergeek.io -->
-
-      <p>Just for you, Haolin.</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/hAEQvlaZgKY" frameborder="0" allowfullscreen></iframe>
-
-  </body>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="script.js"></script> 
+</head>
+<body>
+    <div id="potato" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+    <br>
+    <p id="sample" draggable="true" ondragstart="drag(event)">Drag me into the box please!</p>
+</body>
 </html>

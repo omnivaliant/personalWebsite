@@ -1,0 +1,62 @@
+﻿#potato{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite; 
+    border: 10px solid blue;
+}
+#sample{
+    position: relative;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0% {
+        top: 0px;
+        left:0px;
+    }
+
+    25%{
+        top:200px;
+        left:0px;
+    }
+    50% {
+        top: 200px;
+        left:200px;
+    }
+    75%{
+        top:0px;
+        left:200px;
+    }
+    100% {
+        top: 0px;
+        left:0px;
+    }
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    0% {
+        top: 0px;
+        left:0px;
+    }
+
+    25%{
+        top:200px;
+        left:0px;
+    }
+    50% {
+        top: 200px;
+        left:200px;
+    }
+    75%{
+        top:0px;
+        left:200px;
+    }
+    100% {
+        top: 0px;
+        left:0px;
+    }
+}
