@@ -1,9 +1,51 @@
-﻿#potato{
+﻿html, body {
+  height:100%;
+  width:100%;
+  margin:0;
+  padding:0;
+  background: linear-gradient(270deg,#8992ff,#63e2ff);
+  background-size: 400% 400%;
+  -webkit-animation: backgroundChange 20s ease infinite;
+}
+img.img-circle {
+    border-radius: 1000px;
+    width:20%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+h1.name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 72px;
+
+}
+p.intro-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+a.icon-label{
+    width:100%;
+    margin: auto;
+    display:block;
+    height: auto;
+    text-align: center;
+}
+
+@-webkit-keyframes backgroundChange {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+/*
+#potato{
     width: 100px;
     height: 100px;
     background: red;
     position: relative;
-    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation: mymove 5s infinite;
     animation: mymove 5s infinite; 
     border: 10px solid blue;
 }
@@ -11,7 +53,6 @@
     position: relative;
 }
 
-/* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
     0% {
         top: 0px;
@@ -36,7 +77,6 @@
     }
 }
 
-/* Standard syntax */
 @keyframes mymove {
     0% {
         top: 0px;
@@ -60,3 +100,4 @@
         left:0px;
     }
 }
+*/
