@@ -9,23 +9,71 @@
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100|Open+Sans:300" rel="stylesheet">
     
     <!--Javascript-->
     
     <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
        
 </head>
 
 <body>
-    <img class="img-circle" src="img/mohitPhoto.jpg"/>
-    <p class="name"> Mohit Patel </p>
-    <p class="intro-text">Computer Science 2021 - University of Waterloo</p>
-    
-    
-    <a href="https://github.com/omnivaliant" class="icon-label" style="display: none">
-            <i class="fa fa-github fa-5x"></i>
-    </a>
-        
-<script type="text/javascript" src="script.js"></script>
+    <section class="intro">
+        <img class="img-circle" src="img/mohitPhoto.jpg"/>
+        <p class="name"> Mohit Patel </p>
+        <div class="description">
+            <p class="intro-text">Computer Science 2021 - University of Waterloo</p>
+        </div>
+        <div id="social">
+          <div id="container">
+             <ul>
+                <li id="linkedin">
+                   <a href="https://github.com/omnivaliant" title="linkedin" class"icon-label">
+                      <i class="fa fa-linkedin-square fa-fw fa-5x" aria-hidden="true"></i>
+                   </a>
+                </li>
+                <li id="github">
+                   <a href="https://github.com/omnivaliant" title="github" class="icon-label">
+                      <i class="fa fa-github fa-fw fa-5x" aria-hidden="true"></i>
+                   </a>
+                </li>
+             </ul>
+          </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="section-title">
+            <h1> About </h1>
+        </div>
+        <div class="section-description">
+            <p> Mohit Patel is a curious Computer Science student who enjoys programming in his spare time. </p>
+            <p> Currently in his first year of university, Mohit enjoys learning new and fascinating concepts, from proofs by induction to recursion.</p>
+            <p> When he's not coding, Mohit enjoys watching YouTube videos, listening to music on Spotify, and contemplating the nature of the universe.</p>
+        </div>      
+    </section>
+    <section class="languages">
+        <div class="section-title">
+            <h1> Programming languages </h1>
+        </div>
+        <div class="section-description">
+            <p>Languages I am proficient in:</p>
+            <ul>
+                <li> Java</li>
+                <li> Python</li>
+                <li> Visual Basic</li>
+                <li> LaTeX</li>
+                <li> HTML</li>
+                <li> CSS</li>
+                <li> C#</li>
+                <li> Racket</li>
+            </ul>
+            <p> Languages I am learning: </p>
+            <ul>
+                <li> JavaScript</li>
+                <li> Git</li>
+            </ul>
+        </div>
+    </section>
 </body>
 </html>
