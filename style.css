@@ -3,25 +3,14 @@ html, body {
   width:100%;
   margin:0;
   padding:0;
-  /* background: linear-gradient(270deg,#8992ff,#63e2ff);
-  background-size: 400% 400%;
-  -webkit-animation: backgroundChange 20s ease infinite;*/ 
 }
 .intro{
-    background: url("img/background.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-img.img-circle {
-    border-radius: 1000px;
-    width:20%;
-    height: auto;
-    display: block;
-    margin: auto;
-    top: 2%;
-    padding: 2%;
+    border-style: groove;
+    background-color: lightblue;
 }
 p.name{
     font-family: 'Catamaran', sans-serif;
@@ -40,18 +29,15 @@ p.intro-text {
 .description{
     margin-right: 20%;
     margin-left: 20%;
-    background:rgba(255,255,255,0.7);
     border-radius: 10px;    
 }
 
 .fa-linkedin-square {
   color: rgba(0,119,181,1);
-  background:rgba(255,255,255,0.5);
     border-radius: 10px;
 }
 .fa-github {
   color: rgba(0,119,181,1);
-  background:rgba(255,255,255,0.5);
     border-radius: 10px;
 }
 
@@ -72,13 +58,14 @@ p.intro-text {
   list-style-type: none;
 }
 .about{
-    background: url("img/background-about.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     padding: 0;
+    border-style: groove;
+    background-color: blue;
 }
 .section-title{
     font-family: 'Catamaran', sans-serif;
@@ -93,16 +80,16 @@ p.intro-text {
     margin-left: 20%;
     text-align: center;
     font-size: 40px;
-    background:rgba(255,255,255,0.7);
     border-radius: 10px;
     
 }
 .languages{
-    background: url("img/background-languages.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
     padding: 0;
+    border-style: groove;
+    background-color: cornflowerblue
 }
