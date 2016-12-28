@@ -2,6 +2,7 @@
 <!--Purpose: To create a website for personal satisfaction and learning.-->
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
     <title>Mohit Patel</title>
@@ -10,12 +11,13 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100|Open+Sans:300" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <!--Javascript-->
-    
-    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
-       
+
 </head>
 
 <body>
@@ -24,21 +26,19 @@
         <div class="description">
             <p class="intro-text">Computer Science 2021 - University of Waterloo</p>
         </div>
-        <div id="social">
-          <div id="container">
-             <ul>
-                <li id="linkedin" class="social-icon">
-                   <a href="https://linkedin.com/in/themohitpatel" title="linkedin" class="icon-label">
-                      <i class="fa fa-linkedin-square fa-fw fa-5x" aria-hidden="true"></i>
-                   </a>
-                </li>
-                <li id="github" class="social-icon">
-                   <a href="https://github.com/omnivaliant" title="github" class="icon-label">
-                      <i class="fa fa-github fa-fw fa-5x" aria-hidden="true"></i>
-                   </a>
-                </li>
-             </ul>
-          </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <a href="https://linkedin.com/in/themohitpatel" title="linkedin" class="icon-label">
+                        <i class="hi-icon fa fa-linkedin-square fa-5x social-icon" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://github.com/omnivaliant" title="github" class="icon-label">
+                        <i class="hi-icon fa fa-github fa-5x social-icon" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
     <section class="about">
@@ -47,9 +47,11 @@
         </div>
         <div class="section-description">
             <p> Mohit Patel is a curious Computer Science student who enjoys programming in his spare time. </p>
-            <p> Currently in his first year of university, Mohit enjoys learning new and fascinating concepts, from proofs by induction to recursion.</p>
-            <p> When he's not coding, Mohit enjoys watching YouTube videos, listening to music on Spotify, and contemplating the nature of the universe.</p>
-        </div>      
+            <p> Currently in his first year of university, Mohit enjoys learning new and fascinating concepts, from proofs by
+                induction to recursion.</p>
+            <p> When he's not coding, Mohit enjoys watching YouTube videos, listening to music on Spotify, and contemplating
+                the nature of the universe.</p>
+        </div>
     </section>
     <section class="languages">
         <div class="section-title">
@@ -75,4 +77,5 @@
         </div>
     </section>
 </body>
+
 </html>
