@@ -22,18 +22,9 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <section class="toolbar" id="toolbar">
-        <nav class="navbar navbar-default">
-            <ul class="nav navbar-nav">
-                <li><a href="#intro">Mohit Patel</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#languages">Languages</a></li>
-            </ul>
-        </nav>
-    </section>
-    <section class="sections container-fluid" id="intro">
-        <section class="info">
+<body>
+    <section class="container-fluid">
+        <section class="section" id="intro">
             <p id="name"> Mohit Patel </p>
             <p id="intro-text">Computer Science 2021 - University of Waterloo</p>
             <div class="container" id="links">
@@ -46,18 +37,26 @@
             </div>
         </section>
     </section>
-    <section class="sections container-fluid" id="about">
-        <section class="info">
-            <div class="section-title">
-                <p id="intro-text"> About </p>
-            </div>
-            <div class="section-description">
-                <p> Hello! My name is Mohit Patel, and I'm currently a Computer Science student at University of Waterloo. Programming
-                    is my passion. From creating this website to developing Android applications, I love to create, maintain,
-                    and improve different types of projects. </p>
-            </div>
+    <section class="container-fluid">
+        <section class="section split">
+            <p class="left-title"> About </p>
+            <p class="right-description"> I am currently a first year Computer Science student at University of Waterloo. My passion for coding challenges me to learn something new, and apply my skills in a variety of different ways. I want to continue to learn new things in the future, expanding my proficiency in development skills.</p>    
         </section>
     </section>
+    <section class="container-fluid">
+        <section class="section split">
+            <p class="left-title"> Languages and Technologies</p>
+            <ul class="right-description">
+                <li> Java </li>
+                <li> Python </li>
+                <li> C </li>
+                <li> HTML5/CSS3 </li>
+                <li> JavaScript </li>
+                <li> Git </li>
+            </ul>
+        </section>
+    </section>
+    <!--
     <section class="sections container-fluid" id="languages">
         <section class="info">
             <div class="section-title">
@@ -82,7 +81,7 @@
                 </ul>
             </div>
         </section>
-    </section>
+    </section> -->
 </body>
 
 </html>

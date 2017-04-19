@@ -1,25 +1,21 @@
 * {
-    position: relative;
     margin: 0; 
-    padding: 0; 
+    padding: 0;
 }
-.sections { 
-    background-color: #4ABDAC;
-    color: black;
-    height: 100vh;
+
+body {
+    /* Background pattern from Subtle Patterns */
+    background-image: url("congruent_outline.png");
 }
-.toolbar {
-    position: fixed;
-    left: 0%;
-    top: 50%;
-    width: 10%;
-    z-index: 100;
+#intro {
+    height: 60vh;    
 }
-.info {
-    background-color:#99CED4;
-    width: 80%;
-    left: 10%;
-    height: 100vh;
+.section {
+    background-color: #FFFFFF;
+    width: 60%;
+    left: 20%;
+    margin: 20px 0px 0px 20px;
+    position: relative;
 }
 #name {
     font-family: 'Catamaran', sans-serif;
@@ -30,7 +26,7 @@
 }
 
 #links {
-    top: 30%;
+    top: 25%;
     position: relative;
 }
 
@@ -57,38 +53,36 @@
     /*animation: sonarEffect 0.5s ease-out 75ms;*/
 }
 
-ul {
-    overflow: auto;
-    position: relative;
-}
- 
-ul li {
-    list-style-type: none;
-}
-
 #github {
-    left: 50%;
-    position: relative;
-}
-
-#linkedin {
     left: 40%;
     position: relative;
 }
 
-.section-title{
-    font-family: 'Catamaran', sans-serif;
-    font-size: 100px;
-    margin-right: 20%;
-    margin-left: 20%;
-    text-align: center;
-    font-size: 30px;
+#linkedin {
+    left: 30%;
+    position: relative;
 }
-.section-description{
+.split {
+    height: 40vh;
+    position: relative;
+}
+.left-title {
+    transform: translateY(-50%);
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
-    margin-right: 20%;
-    margin-left: 20%;
     text-align: center;
-    font-size: 30px;
-    border-radius: 10px;
+    font-size: 40px;
+    width: 50%;
+    top: 50%;
+    float: left;
+}
+.right-description {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 50%;
+    top: 50%;
+    left: 50%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 }
